@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/afdc4e959a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="notes.css"> 
+</head>
+<body>
+    <!-- FIRST PAGE OF THE PROJECT WHERE THERE IS NEW NOTE AND TO-DO LIST -->
+    <aside id="firstBatch">
+    <aside class="section">Folders</aside>
+
+    <!-- MY NOTES AND TO-DO LIST -->
+    <div id="list">
+        <aside class="folder1"> 
+            <i class="fa-regular fa-file" id="noteIcon1"></i>
+            My Notes</aside> 
+            <aside id="line01"></aside>
+        <aside class="folder2">
+            <i class="fa-solid fa-bars" id="noteIcon2"></i>
+            To-do Lists</aside>
+    </div>
+    <i class="fa-solid fa-gear" style="color: #cda71d;" id="setting"></i>
+
+<!-- FIXED ITALIC AND BOLD TEXT -->
+    <!-- <div id='fontContainer'>
+        <span id="italic">Italic</span>
+        <span id="bold">Bold</span>
+    </div> -->
+</aside>
+
+<!-- SECOND PAGE WHERE NOTE ARE BEING CREATED AND SAVED -->
+<aside id="secondBatch">
+    <i class="fa-solid fa-arrow-left" id="backToFolder"></i>
+    <aside class="section">All Files</aside>
+
+  <!-- SEARCH BUTTON -->
+    <form id="searchForm" action="search-results.html" method="get">
+  <!-- <i class="fa-solid fa-magnifying-glass" class="searchIcon"></i>  -->
+    <input type="text" id="searchInput" name="q" placeholder=" Search">
+        <!-- <button type="submit">Search</button> -->
+    </form>
+
+ <!-- CREATE NOTE AND SAVE NOTES 1-->
+    <div id="list2">
+        <aside class="folder3"> 
+            <i class="fa-regular fa-file" id="noteIcon3"></i>
+            Create New Notes 1</aside> 
+            <aside id="line02"></aside>
+        <aside class="folder4">
+            <i class="fa-solid fa-bars" id="noteIcon4"></i>
+            Saved Notes</aside>
+    </div>
+
+ <!-- CREATE NOTE AND SAVE NOTES 2-->
+    <div id="list3">
+        <aside class="folder3" id="createNotePart2"> 
+            <i class="fa-regular fa-file" id="noteIcon3"></i>
+            Create New Notes 2</aside> 
+            <aside id="line02"></aside>
+        <aside class="folder4" id='savedNotesPart2'>
+            <i class="fa-solid fa-bars" id="noteIcon4"></i>
+            Saved Notes</aside>
+    </div>
+
+ <!-- CREATE NOTE AND SAVE NOTES 3-->
+ <div id="list4">
+    <aside class="folder3" id="createNotePart3"> 
+        <i class="fa-regular fa-file" id="noteIcon3"></i>
+        Create New Notes 3</aside> 
+        <aside id="line02"></aside>
+    <aside class="folder4" id="savedNotesPart3">
+        <i class="fa-solid fa-bars" id="noteIcon4"></i>
+        Saved Notes</aside>
+</div>
+
+</aside>
+
+<!-- STARTING OF BATCH 3 WHERE NOTES ARE BEING WRITTEN-->
+<aside id="thirdBatch">
+
+    <!-- BACK ARROW TO FORMER PAGE -->
+<aside id="backToAllFiles"><i class="fa-solid fa-arrow-left" id="formerPage01"></i>All Files<i class="fa-solid fa-file-arrow-up" id="saveNotes"></i></aside>
+
+<!-- ADDING DATE FOR CREATE NOTE 1 -->
+<div class="stylingDate">
+    <h1 class="date"></h1>
+</div>
+
+<!-- CREATING THE TEXT AREA FOR NOTES BATCH 3 -->
+<div class="notesContainer">
+    <textarea id="notes" placeholder="Start here..."></textarea>
+</div>
+
+
+
+<!-- FIXED ITALIC AND BOLD TEXT -->
+<!-- <div id='fontContainer3'>
+    <span id="italic3">Italic</span>
+    <span id="bold3">Bold</span>
+</div> -->
+</aside>
+
+
+<!-- CREATING THIRD BATCH FOR SAVED NOTES 1 -->
+<aside id="thirdBatchForSavedNotes">
+
+    <!-- BACK ARROW TO FORMER PAGE -->
+<aside id="backToAllFilesForSavedNotes"><i class="fa-solid fa-arrow-left" id="formerPage01ForSavedNotes"></i>All Files</aside>
+<!-- ADDING DATE  TO SAVE NOTE 1-->
+<div class="stylingDateForSavedNote1">
+    <h1 class="dateForSavedNote1"></h1>
+</div>
+<!-- CREATING THE TEXT AREA FOR NOTES BATCH 3 -->
+<div class="notesContainerForSavedNotes">
+    <textarea id="readNotes" >...</textarea>
+</div>
+<!-- UPLOADING IMAGES FO BATH3  SAVED NOTES -->
+<button id="uploadButton">UPLOAD AND SAVE IMAGES</button>
+<div id="addImages">
+<input type="file" id="fileInput" style="display:none">
+<img src="" alt="Uploaded Image" id="previewImage" style="max-width: 50%; display: none;">
+</div>
+<button id="uploadButton" class="deleteImages">DELETE SAVED IMAGES</button>
+
+
+<!-- FIXED ITALIC AND BOLD TEXT -->
+
+<!-- <div id="fixedText1">
+    <p id="italic3ForSavedNotes">Italic</p>
+</div>
+<div id="fixedText2">
+    <p id="bold3ForSavedNotes">Bold</p>
+</div>
+</div> -->
+</aside>
+
+
+
+  <!-- ........................................ -->
+
+<!-- STARTING OF BATCH 3 WHERE NOTES ARE BEING WRITTEN FOR CREATE NOTE 2-->
+<aside id="thirdBatch02">
+
+    <!-- BACK ARROW TO FORMER PAGE -->
+<aside id="backToAllFiles02"><i class="fa-solid fa-arrow-left" id="formerPage02"></i>All Files<i class="fa-solid fa-file-arrow-up" id="saveNotes02"></i></aside>
+
+<!-- ADDING DATE FOR CREATE NOTE 2 -->
+<div class="stylingDate02">
+    <h1 class="date02"></h1>
+</div>
+
+<!-- CREATING THE TEXT AREA FOR NOTES BATCH 3 -->
+<div class="notesContainer02">
+    <textarea id="notes02" placeholder="Start here..."></textarea>
+</div>
+
+<!-- FIXED ITALIC AND BOLD TEXT -->
+
+<!-- <div id="fixedText1">
+    <p id="italic4">Italic</p>
+</div>
+<div id="fixedText2">
+    <p id="bold4">Bold</p>
+</div> -->
+</aside>
+
+
+<!-- CREATING THIRD BATCH FOR SAVED NOTES 2 -->
+<aside id="thirdBatchForSavedNotes02">
+    <!-- BACK ARROW TO FORMER PAGE -->
+<aside id="backToAllFilesForSavedNotes02"><i class="fa-solid fa-arrow-left" id="formerPage02ForSavedNotes"></i>All Files</aside>
+
+<div class="stylingDateForSavedNote2">
+    <h1 class="dateForSavedNote2"></h1>
+</div>
+<!-- CREATING THE TEXT AREA FOR NOTES BATCH 3 -->
+<div class="notesContainerForSavedNotes02">
+    <textarea id="readNotes02" >...</textarea>
+</div>
+<!-- UPLOADING IMAGES FO BATH3  SAVED NOTES -->
+<button id="uploadButton02">UPLOAD AND SAVE IMAGES</button>
+<div id="addImages02">
+<input type="file" id="fileInput02" style="display:none">
+<img src="" alt="Uploaded Image" id="previewImage02" style="max-width: 50%; display: none;">
+</div>
+<button id="uploadButton02" class="deleteImages02">DELETE SAVED IMAGES</button>
+
+</aside>
+
+
+
+
+<!-- STARTING OF BATCH 3 WHERE NOTES ARE BEING WRITTEN FOR CREATE NOTE 3-->
+<aside id="thirdBatch03">
+
+    <!-- BACK ARROW TO FORMER PAGE -->
+<aside id="backToAllFiles03"><i class="fa-solid fa-arrow-left" id="formerPage03"></i>All Files<i class="fa-solid fa-file-arrow-up" id="saveNotes03"></i></aside>
+<!-- ADDING DATE FOR CREATE NOTE 2 -->
+<div class="stylingDate03">
+    <h1 class="date03"></h1>
+</div>
+<!-- CREATING THE TEXT AREA FOR NOTES BATCH 3 -->
+<div class="notesContainer03">
+    <textarea id="notes03" placeholder="Start here..."></textarea>
+</div>
+</aside>
+
+<!-- CREATING THIRD BATCH FOR SAVED NOTES 3 -->
+<aside id="thirdBatchForSavedNotes03">
+    <!-- BACK ARROW TO FORMER PAGE -->
+<aside id="backToAllFilesForSavedNotes03"><i class="fa-solid fa-arrow-left" id="formerPage03ForSavedNotes"></i>All Files</aside>
+<div class="stylingDateForSavedNote3">
+    <h1 class="dateForSavedNote3"></h1>
+</div>
+<!-- CREATING THE TEXT AREA FOR NOTES BATCH 3 -->
+<div class="notesContainerForSavedNotes03">
+    <textarea id="readNotes03" >...</textarea>
+</div>
+<!-- UPLOADING IMAGES FO BATH3  SAVED NOTES -->
+<button id="uploadButton03">UPLOAD AND SAVE IMAGES</button>
+<div id="addImages03">
+<input type="file" id="fileInput03" style="display:none">
+<img src="" alt="Uploaded Image" id="previewImage03" style="max-width: 50%; display: none;">
+</div>
+<button id="uploadButton03" class="deleteImages03">DELETE SAVED IMAGES</button>
+</aside>
+
+
+<!-- CREATING TODO LIST -->
+<aside id="todoList">
+    <!-- CREATING A BACK TO FORMER PAGE fa-file-arrow-up -->
+    <i class="fa-solid fa-arrow-left" id="backToFolderForTodoList"></i>
+    <!-- CREATING TEXT OF TODO LIST -->
+    <div id="sectionStyle">
+        <aside class="section" id="decoration">To do Lists</aside>
+    </div>
+    <!-- CREATING  TEXT SPACE FOR TODO LIST 1 -->
+    <div class="spacePart2">
+        <h1 class="tickPart2"></h1>
+        <textarea class="tickPart02"></textarea>
+    </div>
+        <!-- CREATING  TEXT SPACE FOR TODO LIST 2 -->
+        <div class="spacePart2">
+            <h1 class="tickPart2"></h1>
+            <textarea class="tickPart02"></textarea>
+        </div>
+        <!-- CREATING  TEXT SPACE FOR TODO LIST 3 -->
+        <div class="spacePart2">
+            <h1 class="tickPart2"></h1>
+            <textarea class="tickPart02"></textarea>
+        </div>
+        <!-- CREATING  TEXT SPACE FOR TODO LIST 5 -->
+        <div class="spacePart2">
+            <h1 class="tickPart2"></h1>
+            <textarea class="tickPart02"></textarea>
+        </div>
+                <!-- CREATING  TEXT SPACE FOR TODO LIST 5 -->
+                <div class="spacePart2">
+                    <h1 class="tickPart2"></h1>
+                    <textarea class="tickPart02"></textarea>
+                </div>
+             <!-- CREATING  TEXT SPACE FOR TODO LIST 6 -->
+              <div class="spacePart2">
+            <h1 class="tickPart2"></h1>
+            <textarea class="tickPart02"></textarea>
+            </div>
+ <!-- CREATING  TEXT SPACE FOR TODO LIST 7 -->
+ <div class="spacePart2">
+    <h1 class="tickPart2"></h1>
+    <textarea class="tickPart02"></textarea>
+    </div>
+
+     <!-- CREATING  TEXT SPACE FOR TODO LIST 8 -->
+ <div class="spacePart2">
+    <h1 class="tickPart2"></h1>
+    <textarea class="tickPart02"></textarea>
+    </div>
+</aside>
+
+
+               <!-- SETTINGS -->
+<aside id="noteSetting">
+    <i class="fa-solid fa-arrow-left" id="backToFolderForSetting"></i>
+    <!-- CREATING TEXT OF setting LIST -->
+    <div id="sectionStyle">
+        <aside class="section" id="decoration">SETTINGS</aside>
+    </div>    
+
+    <div id="history1">
+        <aside id="tickHistory1"></aside>
+        <h1 id="tickHistoryText1">Clear All Saved Notes</h1>
+    </div>
+    <div id="istory1">
+        <aside id="tickHistory2"></aside>
+        <h1 id="tickHistoryText2">Clear All Saved Images</h1>
+    </div>
+
+        <!-- STARTING OF FONTS -->
+        <div id="sectionStyle">
+            <aside class="section" id="decoration">FONTS</aside>
+        </div>   
+        <!-- DEFAULT  -->
+        <aside id="tickHistory1" class="default"></aside>
+        <h1 id="tickHistoryText1">Default</h1>
+    </div>
+        <!-- ITALIC -->
+        <div id="history1">
+            <aside id="tickHistory1" class="italicFont"></aside>
+            <h1 id="tickHistoryText1">Italic</h1>
+        </div>
+        <!-- BOLD -->
+        <aside id="tickHistory1" class="boldFont"></aside>
+        <h1 id="tickHistoryText1">Bold</h1>
+    </div>
+
+
+</aside>
+
+
+    <script src="notes.js"></script>
+</body>
+</html>

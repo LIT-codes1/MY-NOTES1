@@ -1,0 +1,540 @@
+body {
+    background-color: rgb(233, 221, 204);
+}
+
+/* #firstBatch {
+    transition: all 0.87s;
+
+} */
+
+.section {
+    font-size: 50px;
+    margin-left: 20px;
+    /* margin-top: 30px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+#list {
+    font-size: 25px;
+    margin-left: 20px;
+    width: 80%;
+    height: auto;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px 10px;
+}
+#line01 {
+    width: 87%;
+    height: 1px;
+    background-color: black;
+    margin-left: 50px;
+}
+.folder1 {
+    margin-left: 25px;
+    cursor: pointer;
+}
+.folder2 {
+    margin-left: 25px;
+    margin-top: 0;
+    cursor: pointer;
+}
+#list .folder2 {
+   margin-top: 10px;
+}
+#list .folder1 {
+    margin-bottom: 10px;
+}
+#noteIcon1 {
+    margin-top: 3px;
+    color: rgb(233, 233, 114);
+}
+#noteIcon2 {
+    color: rgb(233, 233, 114);
+}
+#fixedText1 {
+    position: fixed;
+    color: black;
+    top: 400px;
+}
+
+#fontContainer{
+    display: inline-block;
+    margin-top: 420px;
+
+}
+
+#italic {
+    margin-top: 400px;
+    font-family: 'ItalicFontName', sans-serif;
+    font-style: italic;
+    cursor: pointer;
+}
+
+#bold {
+    margin-top: 400px;
+    margin-left: 610px;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.italicFont {
+    font-family: 'ItalicFontName', sans-serif;
+    font-style: italic;
+}
+.boldFont {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#searchForm {
+    margin-left: 20px;
+
+}
+#searchInput {
+    position: relative;
+    display: inline-block;
+    width: 80%;
+    height: 20px;
+    border-radius: 7px 7px;
+    background-color: rgb(235, 229, 217);
+    border: 1px  solid rgb(151, 150, 148);
+    color: black;
+
+}
+.folder3 {
+    margin-left: 25px;
+    cursor: pointer;
+}
+.folder4 {
+    margin-left: 25px;
+    margin-top: 0;
+    cursor: pointer;
+}
+#list2 .folder4 {
+   margin-top: 10px;
+}
+#list2 .folder3 {
+    margin-bottom: 10px;
+}
+#list2 {
+    font-size: 25px;
+    margin-left: 20px;
+    width: 80%;
+    height: auto;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px 10px;
+}
+#noteIcon3 {
+    
+    margin-top: 12px;
+    color: rgb(233, 233, 114);
+}
+#noteIcon4 {
+    color: rgb(233, 233, 114);
+}
+
+#line02 {
+    width: 87%;
+    height: 1px;
+    background-color: black;
+    margin-left: 50px;
+}
+#list3 .folder4 {
+    margin-top: 10px;
+ }
+ #list3 .folder3 {
+     margin-bottom: 10px;
+ }
+ #list3 {
+     font-size: 25px;
+     margin-left: 20px;
+     width: 80%;
+     height: auto;
+     margin-top: 40px;
+     background-color: white;
+     border-radius: 10px 10px;
+ }
+ 
+#list4 .folder4 {
+    margin-top: 10px;
+ }
+ #list4 .folder3 {
+     margin-bottom: 10px;
+ }
+ #list4 {
+     font-size: 25px;
+     margin-left: 20px;
+     width: 80%;
+     height: auto;
+     margin-top: 40px;
+     background-color: white;
+     border-radius: 10px 10px;
+ }
+ #fontContainer2{
+    display: inline-block;
+    margin-top: 130px;
+
+}
+ #italic2 {
+    margin-top: 400px;
+    font-family: 'ItalicFontName', sans-serif;
+    font-style: italic;
+    cursor: pointer;
+ }
+ #bold2 {
+    /* margin-top: 600px; */
+    margin-left: 610px;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+ }
+#backToAllFiles {
+    margin-top: 20px;
+    /* color: rgb(233, 233, 114); */
+    font-size: 25px;
+    margin-left:10px ;
+    cursor:pointer
+}
+.notesContainer {
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 10px 10px;
+    background-color: transparent;
+    padding: 10px;
+}
+.notesContainer #notes {
+    width: 100%;
+    height: 400px;
+    border: none;
+    background-color:transparent;
+    font-size: 20px;
+    padding: 5px;
+}
+#fontContainer3{
+    display: inline-block;
+    margin-top: 110px;
+
+}
+#italic3{
+    margin-top: 400px;
+    font-family: 'ItalicFontName', sans-serif;
+    font-style: italic;
+    cursor: pointer;
+ }
+ #bold3{
+    margin-left: 800%;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+#saveNotes {
+    margin-left: 80%;
+    cursor: pointer;
+    background-color: transparent;
+}
+#formerPage01 {
+    margin-right: 5px;
+}
+
+#backToAllFilesForSavedNotes {
+    margin-top: 20px;
+    /* color: rgb(233, 233, 114); */
+    font-size: 25px;
+    margin-left:10px ;
+    cursor:pointer
+}
+#backToAllFilesForSavedNotes02 {
+    margin-top: 20px;
+    /* color: rgb(233, 233, 114); */
+    font-size: 25px;
+    margin-left:10px ;
+    cursor:pointer
+}
+#backToAllFilesForSavedNotes03 {
+    margin-top: 20px;
+    /* color: rgb(233, 233, 114); */
+    font-size: 25px;
+    margin-left:10px ;
+    cursor:pointer
+}
+#formerPage01ForSavedNotes {
+    margin-right: 5px;
+}
+#formerPage02ForSavedNotes {
+    margin-right: 5px;
+}
+#formerPage03ForSavedNotes {
+    margin-right: 5px;
+}
+#saveNotesForSavedNotes {
+    margin-left: 80%;
+    cursor: pointer;
+    background-color: transparent;
+}
+.notesContainerForSavedNotes {
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 10px 10px;
+    background-color: transparent;
+    padding: 10px;
+}
+.notesContainerForSavedNotes #readNotes {
+    width: 100%;
+    height: 400px;
+    border: none;
+    background-color:transparent;
+    font-size: 20px;
+    padding: 5px;
+}
+.notesContainerForSavedNotes02 {
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 10px 10px;
+    background-color: transparent;
+    padding: 10px;
+}
+.notesContainerForSavedNotes02 #readNotes02 {
+    width: 100%;
+    height: 400px;
+    border: none;
+    background-color:transparent;
+    font-size: 20px;
+    padding: 5px;
+}
+.notesContainerForSavedNotes03 {
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 10px 10px;
+    background-color: transparent;
+    padding: 10px;
+}
+.notesContainerForSavedNotes03 #readNotes03 {
+    width: 100%;
+    height: 400px;
+    border: none;
+    background-color:transparent;
+    font-size: 20px;
+    padding: 5px;
+}
+#italic3ForSavedNotes{
+    margin-top: 100px;
+    font-family: 'ItalicFontName', sans-serif;
+    font-style: italic;
+    cursor:pointer
+ }
+ #bold3ForSavedNotes{
+    margin-top: 100px;
+    margin-left: 94%;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+#backToAllFiles02 {
+    margin-top: 20px;
+    /* color: rgb(233, 233, 114); */
+    font-size: 25px;
+    margin-left:10px ;
+    cursor:pointer
+}
+#formerPage02 {
+    margin-right: 5px;
+}
+#saveNotes02 {
+    margin-left: 80%;
+    cursor: pointer;
+    background-color: transparent;
+}
+.notesContainer02 {
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 10px 10px;
+    background-color: transparent;
+    padding: 10px;
+}
+.notesContainer02 #notes02 {
+    width: 100%;
+    height: 400px;
+    border: none;
+    background-color:transparent;
+    font-size: 20px;
+    padding: 5px;
+}
+
+#addImages {
+display: flex;
+justify-content: center;
+}
+#uploadButton {
+    background-color: chocolate;
+    cursor: pointer;
+}
+#uploadButton02 {
+    background-color: chocolate;
+    cursor: pointer;
+}
+#uploadButton03 {
+    background-color: chocolate;
+    cursor: pointer;
+}
+#backToAllFiles03 {
+    margin-top: 20px;
+    /* color: rgb(233, 233, 114); */
+    font-size: 25px;
+    margin-left:10px ;
+    cursor:pointer
+}
+#formerPage03 {
+    margin-right: 5px;
+}
+#saveNotes03 {
+    margin-left: 80%;
+    cursor: pointer;
+    background-color: transparent;
+}
+.notesContainer03 {
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 10px 10px;
+    background-color: transparent;
+    padding: 10px;
+}
+.notesContainer03 #notes03 {
+    width: 100%;
+    height: 400px;
+    border: none;
+    background-color:transparent;
+    font-size: 20px;
+    padding: 5px;
+}
+#backToFolder {
+    font-size: 15px;
+    cursor:pointer
+}
+.stylingDate {
+    display: flex;
+justify-content: center;
+    
+}
+.stylingDateForSavedNote1 {
+    display: flex;
+justify-content: center;
+    
+}
+.stylingDate02 {
+    display: flex;
+justify-content: center;
+    
+}
+.stylingDateForSavedNote2 {
+    display: flex;
+justify-content: center;
+    
+}
+.stylingDate03 {
+    display: flex;
+justify-content: center;
+    
+}
+.stylingDateForSavedNote3 {
+    display: flex;
+justify-content: center;
+    
+}
+
+#backToFolderForTodoList {
+    font-size: 15px;
+    cursor:pointer
+}
+.space1 {
+    display: inline-block;
+    margin-top: 30px;
+}
+.tick1 {
+    display: inline-block;
+    margin-left: 20px;
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    cursor:pointer
+}
+.tick2 {
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+    border: none;
+    background-color:transparent;
+    padding: 5px;
+    font-size: 15px;
+    border: 1px solid black;
+}
+#sectionStyle {
+    display: flex;
+    justify-content: center;
+}
+.spacePart2 {
+    display: inline-block;
+    margin-top: 30px;
+}
+.tickPart2 {
+    display: inline-block;
+    margin-left: 20px;
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    cursor:pointer
+}
+.tickPart02 {
+    display: inline-block;
+    width: 300px;
+    height: 56px;
+    border: none;
+    background-color:transparent;
+    padding: 5px;
+    font-size: 15px;
+    border: 1px solid black;
+}
+
+#decoration {
+    text-decoration: line-through;
+}
+#setting {
+    position: fixed;
+    cursor: pointer;
+    top: 610px;
+}
+#backToFolderForSetting {
+    font-size: 15px;
+    cursor:pointer
+}
+
+#tickHistory1 {
+    display: inline-block;
+    margin-left: 20px;
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    cursor:pointer
+}
+#tickHistoryText1 {
+    display: inline-block;
+
+}
+#history1 {
+    display: inline-block;
+}
+#tickHistory2 {
+    display: inline-block;
+    margin-left: 20px;
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    cursor:pointer
+}
+#tickHistoryText2 {
+    display: inline-block;
+
+}
