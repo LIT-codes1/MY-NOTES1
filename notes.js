@@ -1,11 +1,5 @@
 const italicText = document.querySelector('.italic');
 const boldText = document.querySelector('.bold');
-// const italicText2 = document.querySelector('#italic2');
-// const boldText2 = document.querySelector('#bold2');
-// const italicText3 = document.querySelector('#italic3');
-// const boldText3 = document.querySelector('#bold3');
-// const italic3ForSavedNotes = document.querySelector('#italic3ForSavedNotes');
-// const bold3ForSavedNotes = document.querySelector('#bold3ForSavedNotes');
 const firstBatch = document.querySelector('#firstBatch')
 const secondBatch = document.querySelector('#secondBatch')
 const thirdBatch = document.querySelector('#thirdBatch')
